@@ -193,14 +193,12 @@ section { padding: 6rem 2.5rem; max-width: 1080px; margin: 0 auto; }
     font-size: clamp(1.6rem, 3vw, 2.2rem);
     line-height: 1.15;
     margin-bottom: 0.5rem;
-    position: sticky; top: 7rem;
 }
 .reflection-aside .person-tag {
     font-size: 0.72rem;
     letter-spacing: 0.1em;
     text-transform: uppercase;
     color: var(--muted);
-    position: sticky; top: 10rem;
 }
 .reflection-body p {
     font-size: 0.97rem;
