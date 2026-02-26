@@ -353,8 +353,8 @@ section { padding: 6rem 2.5rem; max-width: 1080px; margin: 0 auto; }
     margin-bottom: 1.75rem;
 }
 .author-photo {
-    width: 128px;
-    height: 128px;
+    width: 180px;
+    height: 180px;
     border-radius: 50%;
     object-fit: cover;
     border: 2px solid var(--border);

@@ -230,13 +230,18 @@
   </div>
   <div class="author-details reveal">
     <div class="author-photo-wrap">
-      <img
-              id="author-img"
-              class="author-photo"
-              src="images/portrait-ghibli-style.png"
-              alt="André Smit"
-              onerror="this.style.display='none';document.getElementById('author-placeholder').style.display='flex';"
-      />
+      <picture>
+        <source
+                media="(max-width: 768px)"
+                srcset="images/portrait-ghibli-style-mobile.png">
+        <img
+                id="author-img"
+                class="author-photo"
+                src="images/portrait-ghibli-style.png"
+                alt="André Smit"
+                onerror="this.style.display='none';document.getElementById('author-placeholder').style.display='flex';"
+        />
+      </picture>
     </div>
     <p class="author-name">André Smit</p>
     <p class="author-role">Graduate Developer — Backend Focus</p>
